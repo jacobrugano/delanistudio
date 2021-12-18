@@ -35,3 +35,16 @@ height: 125px;
     margin-top: 15%;
     padding-bottom: 140px;
 }
+#mouse-click{
+  padding-top : 24px;
+  margin-top: 13%;
+  padding-bottom: 40px;
+}
+
+#title1 {
+  color: white;
+  font-size: 30px;
+font-family: inherit;
+font-weight: bolder;
+padding-top: 50px
+}
