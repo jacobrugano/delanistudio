@@ -7,3 +7,14 @@
     font-size: 22px;)
 
 }
+.image {
+    height: 100%;
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: static;
+}
+.aboutuscontainer {
+  font-size: 16px;
+}
