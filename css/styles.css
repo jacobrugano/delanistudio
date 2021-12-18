@@ -1,0 +1,9 @@
+.container-fluid {
+    position: center center;
+    text-align: center;
+    background-size: cover;
+    /* color: white; */...color commented out because of interefering with about us page
+    font-family: 'Source Sans Pro', serif;
+    font-size: 22px;)
+
+}
