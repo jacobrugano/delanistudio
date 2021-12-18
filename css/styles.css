@@ -22,3 +22,16 @@
 .mouse {
   height: 85px;
 }
+#welcomemessage2 {
+height: 125px;
+}
+#welcomemessage {
+  color: white;
+  font-size: 35px;
+  font-family: cursive;
+  font-style: italic;
+}
+#xlogo {
+    margin-top: 15%;
+    padding-bottom: 140px;
+}
