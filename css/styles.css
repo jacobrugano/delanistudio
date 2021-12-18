@@ -48,3 +48,38 @@ font-family: inherit;
 font-weight: bolder;
 padding-top: 50px
 }
+#message1 {
+  color: white;
+  font-size: 14px;
+font-family: Lucida Console;
+font-weight: bolder;
+
+}
+.work-heading {
+    padding-left: 0;
+    padding-right: 0;
+}
+#aboutus {
+text-align: center;
+padding-bottom: 30px;
+padding-top:20px;
+font-family: sans-serif;
+}
+#ourservices {
+    margin-top: 20px;
+    height: 60%;
+    background-image: url(../assets/backgrounds/s_image2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+#services {
+    padding-top:    85px;
+    padding-bottom:    45px;
+    background-color: rgba(0,0,0,0.7);
+}
