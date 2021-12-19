@@ -11,27 +11,19 @@
 .portfolio {
     max-width: 80%;
 }
-.icon-heading1 {
-    display: none;
-}
-.icon-heading1 {
-    background-color: white;
-    opacity: 0.8;
-    z-index: 1;
-    font-size: 5px;
-    height: 100%;
-    width: 100%;
-    padding-top: 30%;
-    padding-right: 15%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 #social {
     padding-top: 40px;
 }
+#email::placeholder{
+  color: white;
+}
 
+#name::placeholder{
+  color: white;
+}
+#message::placeholder{
+  color: white;
+}
 #social-padding img {
     padding: 5px;
 }
@@ -163,4 +155,141 @@ font-family: sans-serif;
     margin-top: 30px;
     padding-bottom: 10px;
     opacity: 1.4;
+}
+
+.icon-heading0 {
+    display: none;
+}
+.icon-heading0 {
+    background-color: white;
+    opacity: 0.5;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    z-index: 1;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-heading1 {
+    display: none;
+}
+.icon-heading1 {
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    z-index: 1;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-heading2 {
+    display: none;
+}
+.icon-heading2 {
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    z-index: 1;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-heading3 {
+    display: none;
+}
+.icon-heading3 {
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    z-index: 1;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-heading4 {
+    display: none;
+}
+.icon-heading4{
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    z-index: 1;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-heading5 {
+    display: none;
+}
+.icon-heading5 {
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    z-index: 1;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-heading6 {
+    display: none;
+}
+.icon-heading6 {
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    z-index: 1;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-heading7 {
+    display: none;
+}
+.icon-heading7 {
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 15%;
+    z-index: 1;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
