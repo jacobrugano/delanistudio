@@ -144,8 +144,8 @@ font-family: sans-serif;
     background-color: transparent;
     color: #F5EDEB;
 }
-#contact1 {
-    height: 80%;
+.Form2 {
+    height: 10%;
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     padding-top: 30px;
