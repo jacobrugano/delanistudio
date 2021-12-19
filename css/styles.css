@@ -12,7 +12,7 @@
     max-width: 80%;
 }
 .work-heading1 {
-    /* display: none; */
+    display: none;
     background-color: black;
     text-align: center;
     opacity: 0.8;
@@ -117,8 +117,23 @@ font-family: sans-serif;
     font-family: sans-serif;
     font-size: 17px;
 }
+#contactscontainer {
+    padding-top: 70px
+}
 #services {
     padding-top:    85px;
     padding-bottom:    45px;
     background-color: rgba(0,0,0,0.7);
+}
+
+#contact1 {
+    height: 80%;
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    margin-top: 90px;
 }
