@@ -1,3 +1,4 @@
+$(document).ready(function () {
 // Putting jquery effects on the portfolio cards to appear when mouse cursor is on the card and disappear after
 
 $('#icon1').mouseenter(function () {
@@ -10,13 +11,11 @@ $('#icon2').mouseenter(function () {
 }).mouseleave(function () {
     $('#icon2-title').hide("slow");
 });
-
 $('#icon3').mouseenter(function () {
     $('.icon-heading2').filter('#icon3-title').show("slow");
 }).mouseleave(function () {
     $('#icon3-title').hide("slow");
 });
-
 $('#icon4').mouseenter(function () {
     $('.icon-heading3').filter('#icon4-title').show("slow");
 }).mouseleave(function () {
@@ -43,36 +42,53 @@ $('#icon8').mouseenter(function () {
     $('#icon8-title').hide("slow");
 });
 
-// $(document).ready(function () {
-//   // togle effects JQuery; effects
-// $('#design').click(function () {
-//     $('#design2').show(function () {
-//         $('#design').hide('fast');
-//     });
-// });
-// $('#design2').click(function () {
-//     $('#design').show(function () {
-//         $('#design2').hide('fast');
-//     });
-// });
-// $('#devlpmt').click(function () {
-//       $('#development22').show(function () {
-//           $('#devlpmt').hide('fast');
-//       });
-//   });
-//   $('#development22').click(function () {
-//       $('#devlpmt').show(function () {
-//           $('#development22').hide('fast');
-//       });
-//   });
-//
-//   $('#product').click(function () {
-//       $('#product22').show(function () {
-//           $('#product').hide('fast');
-//       });
-//   });
-//   $('#product22').click(function () {
-//       $('#product').show(function () {
-//           $('#product22').hide('fast');
-//       });
-//   });
+  // togle effects JQuery; effects
+$('#design').click(function () {
+    $('#design2').show(function () {
+        $('#design').hide('fast');
+    });
+});
+$('#design2').click(function () {
+    $('#design').show(function () {
+        $('#design2').hide('fast');
+    });
+});
+$('#devlpmt').click(function () {
+      $('#development22').show(function () {
+          $('#devlpmt').hide('fast');
+      });
+  });
+  $('#development22').click(function () {
+      $('#devlpmt').show(function () {
+          $('#development22').hide('fast');
+      });
+  });
+
+  $('#product').click(function () {
+      $('#product22').show(function () {
+          $('#product').hide('fast');
+      });
+  });
+  $('#product22').click(function () {
+      $('#product').show(function () {
+          $('#product22').hide('fast');
+      });
+  });
+
+  $("form#contactscontainer").on('submit',function(event){
+            event.preventDefault();
+            var name = $("input#name").val();
+            var email = $("input#email").val();
+            var message = $("textarea#message").val();
+
+            if ($("input#name").val() && $("input#email").val() && $("input#message").val() ){
+                alert ("Hello " + name + ", Thank you for reaching out, we'll get back to you shortly...");
+            }
+            else if($("input#name").val() && $("input#email").val()){
+                alert("Thank you for reaching ou to us. If you wish to leave a message please type in on the message section..");
+            }
+           else{
+             alert("Please provide correct name or email")
+           }
+        });
+  });
