@@ -125,7 +125,25 @@ font-family: sans-serif;
     padding-bottom:    45px;
     background-color: rgba(0,0,0,0.7);
 }
+.Form2 {
+    padding-top: 20px;
+}
+#name,
+#name:focus {
+    background-color: transparent;
+    color: #F5EDEB;
+}
 
+#email,
+#email:focus {
+    background-color: transparent;
+    color: #F5EDEB;
+}
+#message,
+#message:focus {
+    background-color: transparent;
+    color: #F5EDEB;
+}
 #contact1 {
     height: 80%;
     background-image: url(../assets/backgrounds/c_image.jpg);
