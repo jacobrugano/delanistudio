@@ -1,3 +1,17 @@
+$(document).ready(function () {
+$('#design').click(function () {
+    $('#design2').show(function () {
+        $('#design').hide('fast');
+    });
+});
+$('#design2').click(function () {
+    $('#design').show(function () {
+        $('#design2').hide('fast');
+    });
+});
+
+// Putting jquery effects on the portfolio cards to appear when mouse cursor is on the card and disappear after
+
 $('#icon1').mouseenter(function () {
     $('.icon-heading0').filter('#icon1-title').show("slow");
 }).mouseleave(function () {
