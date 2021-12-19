@@ -7,6 +7,30 @@
     font-size: 22px;)
 
 }
+/* .design22 {
+    display: none;
+} */
+.portfolio {
+    max-width: 80%;
+}
+#whatwedo2 {
+    margin-top: 0px;
+}
+#product2 {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+#development2 {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+#design2 {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+#whatwedo {
+    margin-top: 65px;
+}
 .image {
     height: 100%;
     background-image: url(../assets/backgrounds/h_img.jpg);
