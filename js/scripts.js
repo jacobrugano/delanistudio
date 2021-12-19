@@ -1,15 +1,3 @@
-$(document).ready(function () {
-$('#design').click(function () {
-    $('#design2').show(function () {
-        $('#design').hide('fast');
-    });
-});
-$('#design2').click(function () {
-    $('#design').show(function () {
-        $('#design2').hide('fast');
-    });
-});
-
 // Putting jquery effects on the portfolio cards to appear when mouse cursor is on the card and disappear after
 
 $('#icon1').mouseenter(function () {
@@ -54,3 +42,37 @@ $('#icon8').mouseenter(function () {
 }).mouseleave(function () {
     $('#icon8-title').hide("slow");
 });
+
+// $(document).ready(function () {
+//   // togle effects JQuery; effects
+// $('#design').click(function () {
+//     $('#design2').show(function () {
+//         $('#design').hide('fast');
+//     });
+// });
+// $('#design2').click(function () {
+//     $('#design').show(function () {
+//         $('#design2').hide('fast');
+//     });
+// });
+// $('#devlpmt').click(function () {
+//       $('#development22').show(function () {
+//           $('#devlpmt').hide('fast');
+//       });
+//   });
+//   $('#development22').click(function () {
+//       $('#devlpmt').show(function () {
+//           $('#development22').hide('fast');
+//       });
+//   });
+//
+//   $('#product').click(function () {
+//       $('#product22').show(function () {
+//           $('#product').hide('fast');
+//       });
+//   });
+//   $('#product22').click(function () {
+//       $('#product').show(function () {
+//           $('#product22').hide('fast');
+//       });
+//   });
