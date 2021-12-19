@@ -144,14 +144,15 @@ font-family: sans-serif;
     background-color: transparent;
     color: #F5EDEB;
 }
-.Form2 {
+.contactus {
     height: 10%;
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
-    padding-top: 30px;
+    padding-top: 10px;
     background-position: center;
     background-size: cover;
     position: relative;
     color: white;
-    margin-top: 90px;
+    margin-top: 30px;
+    opacity: 1.4;
 }
