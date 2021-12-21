@@ -54,24 +54,24 @@ $('#design2').click(function () {
     });
 });
 $('#devlpmt').click(function () {
-      $('#development22').show(function () {
+      $('#development2').show(function () {
           $('#devlpmt').hide('fast');
       });
   });
-  $('#development22').click(function () {
+  $('#development2').click(function () {
       $('#devlpmt').show(function () {
-          $('#development22').hide('fast');
+          $('#development2').hide('fast');
       });
   });
 
   $('#product').click(function () {
-      $('#product22').show(function () {
+      $('#product2').show(function () {
           $('#product').hide('fast');
       });
   });
-  $('#product22').click(function () {
+  $('#product2').click(function () {
       $('#product').show(function () {
-          $('#product22').hide('fast');
+          $('#product2').hide('fast');
       });
   });
 
