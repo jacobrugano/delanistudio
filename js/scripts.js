@@ -74,7 +74,7 @@ $('#devlpmt').click(function () {
           $('#product2').hide('fast');
       });
   });
-
+  //
   // $("form#contactscontainer").on('submit',function(event){
   //           event.preventDefault();
   //           var name = $("input#name").val();
@@ -91,7 +91,6 @@ $('#devlpmt').click(function () {
   //            alert("Please provide correct name or email")
   //          }
   //       });
-  // });
   $(document).ready(function() {
       $("#contactform").submit(function(event) {
           var name = $("input#name").val();
@@ -106,3 +105,4 @@ $('#devlpmt').click(function () {
           event.preventDefault();
       });
   });
+});
