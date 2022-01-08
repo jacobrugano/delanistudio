@@ -3,7 +3,7 @@
     text-align: center;
     background-size: cover;
     /* color: white; */...color commented out because of interefering with about us page
-    font-family: 'Source Sans Pro', serif;
+    font-family: 'Copse', serif;
     font-size: 22px;)
 
 }
@@ -49,15 +49,15 @@
 }
 #product2 {
   font-size: 17px;
-  font-family: sans-serif;
+  font-family: 'Copse', serif;
 }
 #development2 {
   font-size: 17px;
-  font-family: sans-serif;
+  font-family: 'Copse', serif;
 }
 #design2 {
   font-size: 17px;
-  font-family: sans-serif;
+  font-family: 'Copse', serif;
 }
 #whatwedo {
     margin-top: 25px;
@@ -83,7 +83,7 @@ height: 125px;
 #welcomemessage {
   color: white;
   font-size: 35px;
-  font-family: cursive;
+  font-family: 'Bree', Serif;
   font-style: italic;
 }
 #xlogo {
@@ -99,14 +99,14 @@ height: 125px;
 #title1 {
   color: white;
   font-size: 30px;
-font-family: inherit;
+font-family: 'Bree', Serif;
 font-weight: bolder;
 padding-top: 50px
 }
 #message1 {
   color: white;
   font-size: 14px;
-font-family: Lucida Console;
+font-family: 'Bree', Serif;
 font-weight: bolder;
 
 }
@@ -118,7 +118,7 @@ font-weight: bolder;
 text-align: center;
 padding-bottom: 30px;
 padding-top:20px;
-font-family: sans-serif;
+font-family: 'Copse', serif;
 }
 #ourservices {
     margin-top: 20px;
@@ -130,7 +130,7 @@ font-family: sans-serif;
     position: relative;
     color: white;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Bree', Serif;
     font-size: 17px;
 }
 #contactscontainer {
@@ -225,10 +225,10 @@ font-family: sans-serif;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.icon-heading3 {
+.icon3-heading {
     display: none;
 }
-.icon-heading3 {
+.icon3-heading {
     background-color: white;
     opacity: 0.8;
     width: 100%;

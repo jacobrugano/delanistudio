@@ -2,12 +2,12 @@ $(document).ready(function () {
 // Putting jquery effects on the portfolio cards to appear when mouse cursor is on the card and disappear after
 
 $('#icon1').mouseenter(function () {
-    $('.icon-heading0').filter('#icon1-title').show("slow");
+    $('.icon-heading0').filter('#icon1-title').show(1000);
 }).mouseleave(function () {
     $('#icon1-title').hide("slow");
 });
 $('#icon2').mouseenter(function () {
-    $('.icon-heading1').filter('#icon2-title').show("slow");
+    $('.icon-heading1').filter('#icon2-title').show(1000);
 }).mouseleave(function () {
     $('#icon2-title').hide("slow");
 });
@@ -17,7 +17,7 @@ $('#icon3').mouseenter(function () {
     $('#icon3-title').hide("slow");
 });
 $('#icon4').mouseenter(function () {
-    $('.icon-heading3').filter('#icon4-title').show("slow");
+    $('.icon3-heading').filter('#icon4-title').show("slow");
 }).mouseleave(function () {
     $('#icon4-title').hide("slow");
 });
@@ -45,33 +45,33 @@ $('#icon8').mouseenter(function () {
   // togle effects JQuery; effects
 $('#design').click(function () {
     $('#design2').show(function () {
-        $('#design').hide('fast');
+        $('#design').hide('slow');
     });
 });
 $('#design2').click(function () {
     $('#design').show(function () {
-        $('#design2').hide('fast');
+        $('#design2').hide('slow');
     });
 });
 $('#devlpmt').click(function () {
       $('#development2').show(function () {
-          $('#devlpmt').hide('fast');
+          $('#devlpmt').hide('slow');
       });
   });
   $('#development2').click(function () {
       $('#devlpmt').show(function () {
-          $('#development2').hide('fast');
+          $('#development2').hide('slow');
       });
   });
 
   $('#product').click(function () {
       $('#product2').show(function () {
-          $('#product').hide('fast');
+          $('#product').hide('slow');
       });
   });
   $('#product2').click(function () {
       $('#product').show(function () {
-          $('#product2').hide('fast');
+          $('#product2').hide('slow');
       });
   });
   //
@@ -96,6 +96,7 @@ $('#devlpmt').click(function () {
           var name = $("input#name").val();
           var email = $("input#email").val();
           var message = $("input#message").val();
+
           $("#name").text(nameInput);
           $("#email").text(emailInput);
           $("#message").text(messageInput);
