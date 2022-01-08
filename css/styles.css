@@ -12,6 +12,10 @@
     max-width: 80%;
     padding-top: 60px;
 }
+#footer {
+position: absolute;
+justify-content: center;
+}
 #whatwedo {
   padding-top: 20px;
   padding-bottom: 10px;
@@ -160,6 +164,10 @@ font-family: 'Copse', serif;
     background-color: transparent;
     color: #F5EDEB;
 }
+.TESTING{
+  background-image: url(../assets/backgrounds/c_image.jpg);
+    opacity: 1.4;
+}
 #contactus {
     height: 20%;
     background-image: url(../assets/backgrounds/c_image.jpg);
@@ -173,6 +181,7 @@ font-family: 'Copse', serif;
     padding-bottom: 10px;
     opacity: 1.4;
 }
+
 
 .icon-heading0 {
     display: none;

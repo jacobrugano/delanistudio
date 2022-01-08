@@ -92,7 +92,7 @@ $('#devlpmt').click(function () {
   //          }
   //       });
   $(document).ready(function() {
-      $("#contactform").submit(function(event) {
+      $("#contact-button").submit(function(event) {
           var name = $("input#name").val();
           var email = $("input#email").val();
           var message = $("input#message").val();
