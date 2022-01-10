@@ -3,8 +3,18 @@
     text-align: center;
     background-size: cover;
     /* color: white; */...color commented out because of interefering with about us page
-    font-family: 'Copse', serif;
+    font-family: 'sans', serif;
     font-size: 22px;)
+
+}
+.btn-primary {
+    border: none;  /*makes the login box occupy the full box*/
+    outline: none;
+    height: 40px; /*sets the height of the login icon*/
+    background: #F33313; /*Sets the color of the login icon*/
+    color: #fff; /*sets out the color of the name login inside the login icon*/
+    font-size: 18px;  /*sets out the font-size of the name login inside the login icon*/
+    width: 20%;
 
 }
 
@@ -51,17 +61,20 @@ justify-content: center;
 #whatwedo2 {
     margin-top: 0px;
 }
+
+
+}
 #product2 {
   font-size: 17px;
-  font-family: 'Copse', serif;
+  font-family: 'sans', serif;
 }
 #development2 {
   font-size: 17px;
-  font-family: 'Copse', serif;
+  font-family: 'sans', serif;;
 }
 #design2 {
   font-size: 17px;
-  font-family: 'Copse', serif;
+  font-family: 'sans', serif;;
 }
 #whatwedo {
     margin-top: 25px;
@@ -87,8 +100,8 @@ height: 125px;
 #welcomemessage {
   color: white;
   font-size: 35px;
-  font-family: 'Bree', Serif;
-  font-style: italic;
+  font-family: 'sans', serif;;
+  /* font-style: italic; */
 }
 #xlogo {
     margin-top: 15%;
@@ -103,14 +116,14 @@ height: 125px;
 #title1 {
   color: white;
   font-size: 30px;
-font-family: 'Bree', Serif;
+font-family: 'sans', serif;;
 font-weight: bolder;
 padding-top: 50px
 }
 #message1 {
   color: white;
   font-size: 14px;
-font-family: 'Bree', Serif;
+font-family: 'sans', serif;;
 font-weight: bolder;
 
 }
@@ -122,7 +135,7 @@ font-weight: bolder;
 text-align: center;
 padding-bottom: 30px;
 padding-top:20px;
-font-family: 'Copse', serif;
+font-family: 'sans', serif;;
 }
 #ourservices {
     margin-top: 20px;
@@ -134,7 +147,7 @@ font-family: 'Copse', serif;
     position: relative;
     color: white;
     text-align: center;
-    font-family: 'Bree', Serif;
+    font-family: 'sans', serif;;
     font-size: 17px;
 }
 #contactscontainer {

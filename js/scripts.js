@@ -42,6 +42,7 @@ $('#icon8').mouseenter(function () {
     $('#icon8-title').hide("slow");
 });
 
+
   // togle effects JQuery; effects
 $('#design').click(function () {
     $('#design2').show(function () {
@@ -74,36 +75,23 @@ $('#devlpmt').click(function () {
           $('#product2').hide('slow');
       });
   });
+
+  // $(document).ready(function() {
+  //     $("form#contact-button").submit(function(event) {
+  //         var name = $("input#name").val();
+  //         var email = $("input#email").val();
+  //         var message = $("textarea#message").val();
+  //         if name && email){
+  //           alert (name + ", we have received your message.");
+  //         } else {
+  //         alert ("Hi there. No data entered");
+  //       };
+  //         // $("#name").text(nameInput);
+  //         // $("#email").text(emailInput);
+  //         // $("#message").text(messageInput);
   //
-  // $("form#contactscontainer").on('submit',function(event){
-  //           event.preventDefault();
-  //           var name = $("input#name").val();
-  //           var email = $("input#email").val();
-  //           var message = $("textarea#message").val();
+  //         alert("Email well received");
   //
-  //           if ($("input#name").val() && $("input#email").val() && $("input#message").val() ){
-  //               alert ("Hello " + name + ", Thank you for reaching out, we'll get back to you shortly...");
-  //           }
-  //           else if($("input#name").val() && $("input#email").val()){
-  //               alert("Thank you for reaching ou to us. If you wish to leave a message please type in on the message section..");
-  //           }
-  //          else{
-  //            alert("Please provide correct name or email")
-  //          }
-  //       });
-  $(document).ready(function() {
-      $("#contact-button").submit(function(event) {
-          var name = $("input#name").val();
-          var email = $("input#email").val();
-          var message = $("input#message").val();
-
-          $("#name").text(nameInput);
-          $("#email").text(emailInput);
-          $("#message").text(messageInput);
-
-          alert("Email well received");
-
-          event.preventDefault();
-      });
-  });
+  //         event.preventDefault();
+  //     });
 });
