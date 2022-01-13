@@ -1,5 +1,29 @@
-Author: JAcob Maina
-Description: This is a website for Delani Studio, developed to show case their services, their portfolio, a means of communication in case someone needs to reach them from the website among others.
-Live page: In case you wish to view the live link, click: https://jacobrugano.github.io/delanistudio/
-Technology used: HTML, CSS, JQUERY and bootstrap
-Copyright: (c) 2021 Jacob Rugano.s
+Delani-Studio
+Author
+Jacob Maina
+
+
+Description
+This is a website for Delani studios showing their services, has section showing their portfolio  and enables viewers to send messages to the studio for inquiries and complains.
+
+
+Live page
+To view the project live, click: https://jacobrugano.github.io/delanistudio/
+
+Screenshot
+
+Technologies Used
+    • HTML
+    • jQuery
+    • CSS
+    • Bootstrap
+
+
+My Contacts
+For any questions on this projects or more, contact me on jacobrugano@gmail.com.
+
+
+License
+    • Copyright (c):
+          Jacob Rugano
+          2021
