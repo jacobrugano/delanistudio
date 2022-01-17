@@ -1,29 +1,68 @@
-Delani-Studio
-Author
-Jacob Maina
+### Delani Studio
+
+##### By Jacob Maina
+
+![Project Image](assets/delaniscreenshot.png)
+
+## Table of Content
+
++ [Description](#description)
++ [Installation Requirement](#Installation)
++ [Technology Used](#technology-used)
++ [Reference](#reference)
++ [Licence](#licence)
++ [Authors Info](#author-Info)
+
+## Description
+## HEAD
+<p>This is  a webpage that displays services offered by Delani Studio. This project is a website for a studio i.e., Delani Studio which contains a Welcome page, an About us, Services, What we do, Portfolio and, a Contact Us section.</p>
+=======
+<p>This is  a webpage that displays services offered by Delani Studio</p>
+
+## Installation
+
+### Requirements
+
+* Either a computer,phone,tablet or an Ipad
+
+* An access to the Internet
+
+### The Installation Process
+****
+Click on the link below to view the site
+[https://jacobrugano.github.io/delanistudio/]
+## Technology Used
+* HTML - which was used to build the structure of the pages.
+
+* CSS - which was used to style the pages incuding the left aside navigation bar
+
+* JAVASCRIPT - which has been used for form validation and jquery
 
 
-Description
-This is a website for Delani studios showing their services, has section showing their portfolio  and enables viewers to send messages to the studio for inquiries and complains.
+## Licence
 
+MIT License
 
-Live page
-To view the project live, click: https://jacobrugano.github.io/delanistudio/
+Copyright (c) [2021] [Jacob Maina]
 
-Screenshot
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Technologies Used
-    • HTML
-    • jQuery
-    • CSS
-    • Bootstrap
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-My Contacts
-For any questions on this projects or more, contact me on jacobrugano@gmail.com.
+## Authors Info
 
-
-License
-    • Copyright (c):
-          Jacob Rugano
-          2021
+Check out more about the author - [Jacob Rugano](https://ke.linkedin.com/in/jacob-maina-6767a359)
