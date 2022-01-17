@@ -75,23 +75,23 @@ $('#devlpmt').click(function () {
           $('#product2').hide('slow');
       });
   });
-
-  // $(document).ready(function() {
-  //     $("form#contact-button").submit(function(event) {
-  //         var name = $("input#name").val();
-  //         var email = $("input#email").val();
-  //         var message = $("textarea#message").val();
-  //         if name && email){
-  //           alert (name + ", we have received your message.");
-  //         } else {
-  //         alert ("Hi there. No data entered");
-  //       };
-  //         // $("#name").text(nameInput);
-  //         // $("#email").text(emailInput);
-  //         // $("#message").text(messageInput);
-  //
-  //         alert("Email well received");
-  //
-  //         event.preventDefault();
-  //     });
 });
+
+  function formvalidation(){
+      let myName = document.getElementById("name").value;
+      let myEmail = document.getElementById("email").value;
+      let myMessage = document.getElementById("message").value;
+
+      if( myName == null || myName == ""){
+          alert("Please enter your Name");
+          return false;
+      }else if(myEmail == null || myEmail == ""){
+          alert("Please enter a valid email address");
+          return false;
+      }else if(myMessage == null || myMessage == ""){
+          alert("Please enter a Message");
+          return false;
+      }else{
+          alert("Welcome " + myName + " your message has been received and we will respond ASAP");
+      }
+  };
